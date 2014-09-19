@@ -26,7 +26,8 @@ public class DataOperatorImpl implements DataOperator {
 		try {
 			in = new Scanner(new File(path));	
 		} catch (FileNotFoundException e) {
-			e.printStackTrace();
+			//e.printStackTrace();
+			System.out.println("Системе не удается найти указанный путь.");
 		}
 		
 		while(in.hasNextLine())

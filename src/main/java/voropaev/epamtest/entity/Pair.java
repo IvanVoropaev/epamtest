@@ -40,4 +40,5 @@ public class Pair {
 	    Pair pair = (Pair) obj;
 	    return ( name.equals(pair.getName()) && value.equals(pair.getValue()));
 	}
+	
 }
